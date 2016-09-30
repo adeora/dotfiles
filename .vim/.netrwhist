@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/goldage5/Finalyze/finalyze_backend'
+let g:netrw_dirhist_2='/home/goldage5/Finalyze/finalyze_backend/finalyze_backend'
+let g:netrw_dirhist_3='/home/goldage5/CodingProjects/GraphDataExtractor/design'
+let g:netrw_dirhist_4='/dev/cpu'
+let g:netrw_dirhist_5='/home/goldage5/ClassWork/UChicago/CS154/Spring2016Syllabus'

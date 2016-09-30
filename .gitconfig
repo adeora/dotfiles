@@ -1,0 +1,12 @@
+[user]
+	name = Abhimanyu Deora
+	email = abhikdeora@gmail.com
+[credential]
+	helper = cache --timeout=3600
+[alias]
+	history = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[core]
+	excludesfile = /home/goldage5/.gitignore_global
+	autocrlf = input
+[color]
+	ui = auto
