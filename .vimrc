@@ -7,7 +7,7 @@ syntax on
 set t_Co=256
 
 " color scheme
-colorscheme badwolf
+colorscheme Tomorrow-Night
 
 "spaces and tabs
 set tabstop=4
