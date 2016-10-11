@@ -1,16 +1,13 @@
-"syntax enable
-"set expandtab
-"set tabstop=2
-"set number
-"colorscheme desert
-"au BufNewFile,BufRead *.less set filetype=less
-"autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_us
-"set mousemodel=popup
-
 "vimrc inspired by https://dougblack.io/words/a-good-vimrc.html
 
 "enable syntax highlighting
-syntax enable
+syntax on
+
+" 256-color terminal
+set t_Co=256
+
+" color scheme
+colorscheme badwolf
 
 "spaces and tabs
 set tabstop=4
@@ -66,3 +63,4 @@ set writebackup
 " filetype specific things
 autocmd FileType make setlocal noexpandtab
 autocmd Filetype c set softtabstop=2
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
