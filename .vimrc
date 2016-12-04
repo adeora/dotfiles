@@ -1,5 +1,8 @@
 "vimrc inspired by https://dougblack.io/words/a-good-vimrc.html
 
+" enable pathogen
+call pathogen#infect()
+
 "enable syntax highlighting
 syntax on
 
@@ -22,6 +25,7 @@ filetype indent on
 set wildmenu
 set lazyredraw
 set showmatch
+set colorcolumn=80 "line @ 80 characters
 
 "usability configs
 
